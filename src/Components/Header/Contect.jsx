@@ -14,7 +14,7 @@ const Contect = () => {
             <div className=' p-2 text-center'>
                 <p>Welcome to the National Institute of Fine Arts</p>
             </div>
-            <div className='flex flex-col md:flex-row justify-center items-center gap-6'>
+            <div className='flex flex-col md:flex-row justify-center items-center md:gap-6'>
                 <div className='flex justify-center items-center gap-2'>
                 <FaPhone/>   9555112200
                 </div>
