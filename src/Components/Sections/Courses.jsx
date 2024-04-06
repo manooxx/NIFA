@@ -10,10 +10,13 @@ const Courses = () => {
                 Our Courses
             </h2>
         </div>
+        <div className=' flex justify-center items-center'>
+
         <div className='grid  md:grid-cols-4 gap-10'>
             {
                 CourseData.map((items, index)=><CourseItems key={index} items={items}/>)
             }
+        </div>
         </div>
       
     </div>
