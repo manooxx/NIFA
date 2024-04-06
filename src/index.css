@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.movement {
+  animation: movement 40s linear infinite;
+}
+.movement:hover {
+  animation-play-state: paused; 
+}
+
+
+@keyframes movement {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
