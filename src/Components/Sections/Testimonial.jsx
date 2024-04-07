@@ -14,7 +14,7 @@ const Testimonial = () => {
         <div className='py-10 grid grid-cols-3 gap-12 '>
                 {
                     testimonialLink.map((url, i)=>
-                    <div key={url.url} className="border-4 border-white"><YoutubeVideo   videoUrl = {url.url} width='340' height='200' />
+                    <div key={url.url} className="border-4 border-white"><YoutubeVideo   videoUrl = {url.url} width='355' height='200' />
                     </div>)
                 }
         </div>
